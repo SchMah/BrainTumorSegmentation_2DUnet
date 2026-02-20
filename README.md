@@ -38,6 +38,8 @@ The performance of the model is measured using the Dice Similarity Coefficient (
 
 <img src="results/samples.png" width="800">
 
+**Attribution:**
+*Data used in this project were obtained as part of the Brain Tumor Segmentation (BraTS) Challenge project through Synapse ID: syn51156910.*
 
 
 
