@@ -12,7 +12,7 @@
 ### Dataset
 The model is trained and evaluated on the Brain Tumor Segmentation (BraTS) dataset ([here](https://www.synapse.org/Synapse:syn51156910/wiki/627000)). This dataset provides multimodal 3D MRI scans for each patient, including four modalities: T1, T1ce (post-contrast), T2, and FLAIR. The scans are natively skull-stripped, resampled to an isotropic 1mm³ resolution, and co-registered.The ground truth annotations consist of three tumor sub-regions:
 
-<img src="dataset_sample.png">
+<img src="results/dataset_sample.png">
 
 ### Pre-processing 
 Because the network is a 2D architecture, the 3D MRI volumes are sliced axially. To prepare the data for the model
